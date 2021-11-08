@@ -1,5 +1,4 @@
 pipeline {
-
   agent {
     kubernetes {
       yaml """
@@ -38,7 +37,7 @@ spec:
     id: 'Artifactory-1',
     url: 'https://ericasrv.jfrog.io/artifactory',
     // If you're using Credentials ID:
-    credentialsId: '57f6499f-3c7b-43e4-963c-203ba1fd1083',
+    credentialsId: '229573ff-2910-4a2c-91ea-8fc988d11b54',
     // If Jenkins is configured to use an http proxy, you can bypass the proxy when using this Artifactory server:
     //bypassProxy: true,
     // Configure the connection timeout (in seconds).
